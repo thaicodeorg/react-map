@@ -113,6 +113,7 @@ const MapComponent = () => {
                 // Note: You might also want to update the formData state here 
                 // if the form needs to reflect the dragged position.
                 setPosition(newLatLng);
+                // React updater function  
                 setformData({
                     ...formData,
                     lat: newLatLng.lat,

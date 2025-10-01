@@ -1,16 +1,17 @@
 
 import './App.css'
-import MapComponent from './components/MapComponent'
+
 
 
 import 'leaflet/dist/leaflet.css';
+import MapComponent2 from './components/MapComponent2';
 
 function App() {
 
 
   return (
     <>
-      <MapComponent />
+      <MapComponent2 />
     </>
   )
 }
